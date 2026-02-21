@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Your Name - Academic Homepage</title>
+<title>Zhang Zhe - Academic Homepage</title>
 <style>
   body {
     font-family: Georgia, "Times New Roman", Times, serif;
@@ -57,6 +57,18 @@
   .contact span { margin-right: 16px; }
   .pub-item { margin-bottom: 18px; }
   .pub-title { font-weight: bold; }
+  .oral-badge {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 2px 8px;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fff;
+    background: #d93025;
+    border-radius: 999px;
+    vertical-align: middle;
+    letter-spacing: 0.2px;
+  }
   .pub-authors { font-size: 14px; color: #444; }
   .pub-venue { font-size: 14px; color: #666; font-style: italic; }
   .pub-links { font-size: 13px; margin-top: 2px; }
@@ -69,20 +81,18 @@
 
 <!-- ====== Header ====== -->
 <div class="header">
-  <!-- Replace src with your photo, or keep the placeholder -->
-  <!-- <img class="avatar" src="photo.jpg" alt="Your Name"> -->
-  <div class="avatar-placeholder">Your Photo</div>
+  <img class="avatar" src="avatar.jpg" alt="Zhang Zhe">
 
   <div class="info">
-    <h1>Your Name</h1>
+    <h1>Zhang Zhe</h1>
     <div class="subtitle">
-      Ph.D. Student / Researcher<br>
-      Department of XXX, University of XXX
+      Undergraduate, Department of Computer Science and Technology, Tsinghua University<br>
+      Incoming PhD Student, GenSI Lab
     </div>
     <div class="contact">
-      <span>Email: yourname@example.com</span><br>
-      <span>Google Scholar: <a href="#">[Link]</a></span>
-      <span>GitHub: <a href="#">[Link]</a></span>
+      <span>Email: <a href="mailto:zhe-zhan22@mails.tsinghua.edu.cn">zhe-zhan22@mails.tsinghua.edu.cn</a></span><br>
+      <span>Phone: (+86) 156 9171 1030</span><br>
+      <span>Google Scholar: <a href="https://scholar.google.com/citations?hl=en&amp;user=REO8n9IAAAAJ" target="_blank" rel="noopener noreferrer">Profile</a></span>
     </div>
   </div>
 </div>
@@ -90,39 +100,31 @@
 <!-- ====== About ====== -->
 <h2>About Me</h2>
 <p>
-  I am a Ph.D. student at the University of XXX, advised by Prof. XXX.
-  My research interests include XXX, XXX, and XXX.
-  Previously, I received my B.S. degree from XXX in 20XX.
+  I am an undergraduate student in the Department of Computer Science and Technology at Tsinghua University.
+  My research interests focus on applications of generative AI to protein design, especially how deep learning and generative
+  methods can improve molecular generation and optimization.
 </p>
-
-<!-- ====== News (optional) ====== -->
-<h2>News</h2>
-<ul>
-  <li><b>2026.01</b> &mdash; One paper accepted to XXX 2026.</li>
-  <li><b>2025.09</b> &mdash; Started my Ph.D. at XXX.</li>
-</ul>
 
 <!-- ====== Publications ====== -->
 <h2>Publications</h2>
 
 <div class="pub-item">
-  <div class="pub-title">Your Paper Title Here</div>
-  <div class="pub-authors"><b>Your Name</b>, Co-Author A, Co-Author B</div>
-  <div class="pub-venue">Conference or Journal Name, 2026</div>
+  <div class="pub-title">DCFold: Efficient Protein Structure Generation with Single Forward Pass <span class="oral-badge">Oral</span></div>
+  <div class="pub-authors"><b>Zhang, Z.</b>, Feng, Y., Song, Y., Qiu, K., Zhou, H., Ma, W. Y.</div>
+  <div class="pub-venue">ICLR, 2026</div>
   <div class="pub-links">
-    <a href="#">[Paper]</a>
-    <a href="#">[Code]</a>
-    <a href="#">[Project Page]</a>
+    <a href="https://openreview.net/forum?id=LMsdys7t1L" target="_blank" rel="noopener noreferrer">[Paper]</a>
   </div>
 </div>
 
 <div class="pub-item">
-  <div class="pub-title">Another Paper Title</div>
-  <div class="pub-authors">Co-Author A, <b>Your Name</b>, Co-Author C</div>
-  <div class="pub-venue">Conference or Journal Name, 2025</div>
+  <div class="pub-title">Shortlisting model: A streamlined simplex diffusion for discrete variable generation</div>
+  <div class="pub-authors">Song, Y.<sup>*</sup>, <b>Zhang, Z.</b><sup>*</sup>, Pei, Y.<sup>*</sup>, Gong, J., Yu, Q., Zhang, Z., ... &amp; Ma, W. Y.</div>
+  <div class="pub-venue">NeurIPS, 2025</div>
   <div class="pub-links">
-    <a href="#">[Paper]</a>
-    <a href="#">[Code]</a>
+    <a href="https://arxiv.org/abs/2508.17345" target="_blank" rel="noopener noreferrer">[Paper]</a>
+    <a href="https://github.com/GenSI-THUAIR/SLM" target="_blank" rel="noopener noreferrer">[Code]</a>
+    <a href="https://www.gensi-thuair.com/SLM/" target="_blank" rel="noopener noreferrer">[Project Page]</a>
   </div>
 </div>
 
@@ -131,14 +133,17 @@
 <!-- ====== Education (optional) ====== -->
 <h2>Education</h2>
 <ul>
-  <li><b>20XX &ndash; Present</b>: Ph.D. in XXX, University of XXX</li>
-  <li><b>20XX &ndash; 20XX</b>: B.S. in XXX, University of XXX</li>
+  <li><b>2023 &ndash; Present</b>: B.Eng. in Computer Science and Technology, Tsinghua University</li>
+  <li><b>2022 &ndash; 2023</b>: Undergraduate, Department of Electrical Engineering, Tsinghua University</li>
 </ul>
 
 <!-- ====== Footer ====== -->
 <hr>
+<div style="text-align:center; margin: 18px 0 10px 0;">
+  <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=300&t=tt&d=GfJ0f-ipO2W_T8FEfY3TOJ20uiVw4ycSKCE6cNs9_NU'></script>
+</div>
 <footer>
-  &copy; 2026 Your Name &middot; Last updated: Feb 2026
+  &copy; 2026 Zhang Zhe &middot; Last updated: Feb 2026
 </footer>
 
 </body>
